@@ -10,8 +10,8 @@ public class ArrayCompareTest {
 
     @Test
     public void testArraySort() {
-        int[] number = {12, 3, 4, 1};
-        int[] expected = {1, 3, 4, 12};                 // {1, 4, 3, 12};
+        int[] number = {122, 3, 4, 1};
+        int[] expected = {1, 3, 4, 122};                 // {1, 4, 3, 12};
         Arrays.sort(number);
 
         assertArrayEquals(expected, number);
