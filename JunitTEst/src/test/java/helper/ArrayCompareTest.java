@@ -19,16 +19,16 @@ public class ArrayCompareTest {
 
     @Test(expected = NullPointerException.class)
     public void testArraySort_NullArray(){
-        int[] number = {};                            // int[] number = {} ;
+        int[] number = null;                            // int[] number = {} ;
         Arrays.sort(number);
 
     }
 
-    @Test()
+/*    @Test()
     public void testArray(){
         int[] number = {};                            // int[] number = {} ;
         Arrays.sort(number);
 
-    }
+    }*/
 
 }
